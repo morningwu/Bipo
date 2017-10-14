@@ -2,6 +2,9 @@
 @import url("lang.css");
 @import url("slick.css");
 @import url("slick-theme.css");
+@import url("timeline.css");
+@import url("vdo-bg.css");
+
 /*
 =======================================================================
 [Table of contents]
@@ -7498,4 +7501,40 @@ input.shop-submit:hover{
   color:white;
   .parent-slide{padding:10px;}
   img{display: block;margin:auto;}
+}
+
+.text-dropdown{
+    font-weight: 700;
+    text-align: left;
+    color: #000;
+}
+.story-container{
+    margin: 10px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #F2F2F2;
+    background-color: white;
+}
+
+.img-container{
+    margin-top: 10px;
+}
+.img-container .img2{
+    margin-top: 50px;
+}
+.bg-blue{
+    background-color: #FBF2EF;
+}
+.about-modal{
+    font-family: sans-serif;
+}
+.about-modal h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.about-modal h4{
+    color: #A4A4A4;
+}
+.margin-btn-top{
+    margin-top: 15px;
 }

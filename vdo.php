@@ -46,6 +46,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
    </head>
    <body>
 
@@ -67,102 +68,81 @@
       <!-- =========================
         END HEADER SECTION
       ============================== -->
+<!-- reference examples at https://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+<section id="lab_video_slider">
+  <div class="container-fluid">
+    <div class="row">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-      <!-- =========================
-        START PAGE TITLE SECTION
-      ============================== -->
-      <div class="page-title-area service-area-outsource-rpos-bg">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-6 col-md-6">
-                  <div class="page-title-left">
-                     <h2>About Us</h2>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-6">
-                  <div class="page-bredcrumbs-area text-right">
-                     <ul  class="page-bredcrumbs">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div id="slide_one" class="swiper-slide">
+            <div id="lab_video_text_overlay">
+    <div class="container">
+      <h2>Make your life easier</h2>
+
+    <a href="product.php" class="btn rev-slider-btn rev-slider-btn-2 ">Our Solutions</a>
+    <a href="about.php" class="btn rev-slider-btn rev-slider-btn-2">About us</a>
+
+    </div>
+  </div>
+  <!-- end #lab_overlay -->
+            <!-- VIDEO -->
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/pjopy0mu4klisat/working-with-espresso.jpg">
+              <source src="vdo/bipo.mp4" type="video/mp4">
+                <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
+                  <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+            </video>
+            <!-- END VIDEO -->
+          </div>
+
+ 
+<!--
+          <div id="slide_three" class="swiper-slide">
+      
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/5aeyg9ntj1fs8v1/typing-numbers.jpg">
+              <source src="//dl.dropbox.com/s/xmosdvoleruexky/typing-numbers.mp4" type="video/mp4">
+                <source src="//dl.dropbox.com/s/13z1t97pcvka88k/typing-numbers.webm" type="video/webm">
+                  <source src="//dl.dropbox.com/s/5pyuc35wnv5khe1/typing-numbers.ogv" type="video/ogg">
+            </video>
+         
+          </div>
+        -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <!-- =========================
-        END PAGE TITLE SECTION
-      ============================== -->      
 
-      <!-- =========================
-        START WELCOME SECTION
-      ============================== --> 
-      <section class="welcome-area">
-         <!-- MAIN TITLE -->
-         <div class="main-title">
-            <div class="container">
-               <div class="row">
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Our Vision</h2>
-                        <p>A leading one-stop human resource partner in Asia Pacific.</p>
-                       
-                        
-                     </div>
-                  </div>
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Our Mission</h2>
-                        <p>We provide innovative and effective ways of managing HR processes through cost-effective technology and solutions that serve the needs of all stakeholders to achieve productivity enhancements. </p>
-                        
-                     </div>
-                  </div>
-                  
-               </div>
-                <div class="row">
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Belonging</h2>
-                        <p>We engage people with different backgrounds and expertise but embrace the same responsibility and goals to co-create and provide a one-stop human resources solution to our clients and make their life easier.</p>
-                       
-                        
-                     </div>
-                  </div>
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Integrity</h2>
-                        <p>We abide by our commitment to build a long-term relationship with our people and clients with mutual trust.</p>
-                        
-                     </div>
-                  </div>
-                  
-               </div>
-                <div class="row">
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Professionalism</h2>
-                        <p>We take pride in producing high-quality work and delivering exceptional service to internal and external customers.</p>
-                       
-                        
-                     </div>
-                  </div>
-                  <div class="cold-md-6 col-sm-6">
-                     <div class="main-title-content ">
-                        <h2 class="text-center">Openness</h2>
-                        <p>We share a belief of sustainability by constantly striving for improvement in our BIPO technology and our service levels. We are always ready to listen, communicate and change.</p>
-                        
-                     </div>
-                  </div>
-                  
-               </div>
-        
+      <!-- Swiper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
 
-            </div>
-         </div> <!-- END MAIN TITLE -->
-      </section>
-   
-
-
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false
+        });
+      </script>
+    </div>
+    <!-- end .row -->
+  </div>
+  <!-- end .container-->
+  </div>
+  <!-- end #section -->
+             
+      
 
 
       <!-- =========================
@@ -185,7 +165,7 @@
                      <div class="main-title-content text-center">
                       
                         <h2>We Are Hiring!</h2>
-                        <p><a href="">Join us</a> and start your career!</p>
+                        <p><a href="career.php">Join us</a> and start your career!</p>
                         
                      </div>
                   </div>
@@ -195,7 +175,7 @@
       <!-- =========================
         START SIGN UP SECTION
       ============================== -->
-<?php include 'lang-modal.php';?>
+
       <!-- =========================
         START FOOTER SECTION
       ============================== -->
@@ -235,6 +215,6 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
-      <script src="js/lang.js"></script>  
+             
    </body>
 </html>

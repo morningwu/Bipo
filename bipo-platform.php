@@ -139,7 +139,7 @@
       <!-- =========================
         END FOOTER SECTION
       ============================== -->
-
+<?php include 'lang-modal.php';?>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="js/jquery-1.11.3.min.js"></script>        
       <!-- RS5.0 Core JS Files -->
@@ -168,5 +168,6 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
+      <script src="js/lang.js"></script>  
    </body>
 </html>

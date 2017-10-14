@@ -100,27 +100,63 @@
       ============================== --> 
       <section class="welcome-area">
          <!-- MAIN TITLE -->
-         <div class="main-title">
+         <div class="main-title bg-blue">
             <div class="container">
                <div class="row">
-                  <div class="cold-md-12 col-sm-12">
-                     <div class="main-title-content ">
-                        <!--<h3>Free & rightful advice!</h3>-->
-                        <h2 class="text-center">About Us</h2>
-                        <p >BIPO was founded in Shanghai in 2004 and now has its headquarter in Singapore, and R&D Centre in Indonesia. We also have offices in Hong Kong, Taiwan, Vietnam, Thailand, Australia, New Zealand with business links in more than 10 countries and regions.</p>
+                  
+                    
+                        <div class="col-md-8">
+                           <div class="story-container">
+                           <h2 class="text-center">Bipo Story</h2>
+                        <p>BIPO was founded in Shanghai in 2004 and now has its headquarter in Singapore, and R&D Centre in Indonesia. We also have offices in Hong Kong, Taiwan, Vietnam, Thailand, Australia, New Zealand with business links in more than 10 countries and regions.</p>
                         <p>Our team of consultants understands the concerns and challenges of HR managers and will provide clients with detailed, timely, professional and effective service. As we constantly look into expanding our services through new developments in BIPO cloud technology, you can be assured of the perfect customer experience.</p>
                         <p>BIPO, a one-stop human resource partner with a widespread network deeply rooted in Asia-Pacific, provides innovative and effective solutions and improves corporation efficiency.  We consider ourselves as a ‘travelling adventurer and model of Chinese service excellence’ and promote Chinese services to the world.</p>
+                        </div>
                      </div>
-                  </div>
-                  
+                        <div class="col-md-4">
+                           <div class="img-container">
+                              <a data-toggle="modal" data-target="#belongingModal"><img src="images/about/belonging.png" class="img-responsive col-md-12"></a>
+                           </div>
+                           <div class="img-container">
+                              <a data-toggle="modal" data-target="#belongingModal"><img src="images/about/int.png" class="img2 img-responsive col-md-12"></a>
+                           </div>
+
+                           
+                           
+
+                         </div>
+                    
                </div>
+
+  <div class="row">
+                  
+                  <div class="col-md-4">
+                           <div class="img-container">
+                              <a data-toggle="modal" data-target="#belongingModal"><img src="images/about/open.png" class="img-responsive col-md-12"></a>
+                           </div>
+                          
+               </div>
+               <div class="col-md-4">
+                   <div class="img-container">
+                              <a data-toggle="modal" data-target="#belongingModal"><img src="images/about/pro.png" class=" img-responsive col-md-12"></a>
+                           </div>
+               </div>
+                <div class="col-md-4">
+                           <div class="story-container">
+                           <h2 class="text-center">Mission & Vision</h2>
+                        <p>We provide innovative and effective ways of managing HR processes through cost-effective technology and solutions that serve the needs of all stakeholders to achieve productivity enhancements,and to become a leading one-stop human resource partner in Asia Pacific.</p>
+                   
+                        </div>
+                     </div>
 
             </div>
          </div> <!-- END MAIN TITLE -->
       </section>
-     
-
-
+     <section class="welcome-area">
+ <?php include 'timeline.php';?>
+</section>
+            <!-- End container -->                     
+      
 
 
       <!-- =========================
@@ -154,6 +190,30 @@
         START SIGN UP SECTION
       ============================== -->
 
+      <!-- modal box-->
+      <!-- Modal -->
+<div class="modal fade" id="belongingModal" tabindex="-1" role="dialog" aria-labelledby="belongingModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body about-modal">
+         <h3>BELONGING</h3><hr/>
+        <h4>We engage people with different backgrounds and expertise but embrace the same responsibility and goals to co-create and provide a one-stop human resources solution to our clients and make their life easier.</h4>
+        <h3>INTEGRITY</h3><hr/>
+        <h4>We abide by our commitment to build a long-term relationship with our people and clients with mutual trust.</h4>
+        <h3>PROFESSIONALISM</h3><hr/>
+        <h4>We take pride in producing high-quality work and delivering exceptional service to internal and external customers.</h4>
+        <h3>OPENNESS</h3><hr/>
+        <h4>We share a belief of sustainability by constantly striving for improvement in our BIPO technology and our service levels. We are always ready to listen, communicate and change.</h4>
+     
+    </div>
+     <div class="modal-footer">
+       
+        <a href="contact.php" class="btn btn-primary">Contact us</a>
+      </div>
+  </div>
+</div>
+      <?php include 'lang-modal.php';?>
       <!-- =========================
         START FOOTER SECTION
       ============================== -->
@@ -193,6 +253,8 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
+      <script src="js/lang.js"></script> 
+      <script src="js/timeline.js"></script> 
              
    </body>
 </html>

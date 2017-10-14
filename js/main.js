@@ -551,6 +551,8 @@ jQuery(function($) {
         */ 
         var client_slider = $("#client-slider");
         client_slider.owlCarousel({
+            autoplay: true,
+            autoplayTimeout:1000,
             loop: true,
             margin: 30,
             dots: false,

@@ -175,7 +175,7 @@
                      data-splitout="none"
                      data-responsive_offset="on"
                      style="z-index: 10; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);">
-                     <a href="product.php" class="btn rev-slider-btn rev-slider-btn-2 ">Our Solutions</a>
+                     <a href="product.php" class="btn rev-slider-btn rev-slider-btn-2 btn-primary ">Our Solutions</a>
                      <a href="about.php" class="btn rev-slider-btn rev-slider-btn-2">About us</a>
                   </div>
                </li>
@@ -445,7 +445,7 @@
       ============================== --> 
 
  
-
+<?php include 'lang-modal.php';?>
 
       <!-- =========================
         START FORM SECTION
@@ -488,6 +488,7 @@
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
       <script src="js/change-logo.js"></script>   
+      <script src="js/lang.js"></script>   
           
    </body>
 </html>

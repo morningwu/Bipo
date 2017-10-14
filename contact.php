@@ -116,7 +116,7 @@
                         <h2>Drop us A Line</h2>
                         <div class="show_result"></div>
                         <div class="result_message"></div>                         
-                        <form>
+                        <form name="contact" action="" method="Post">
                            <div class="row">
                               <div class="col-sm-6">
                                  <input type="text" id="Name" class="form-control" placeholder="Name"> 
@@ -388,8 +388,9 @@
                               <div class="col-sm-12">
                                   <textarea class="form-control" rows="3" id="Message"  placeholder="Message"></textarea>
                               </div>
-                              <div class="col-sm-12 text-center">
-                                 <button type="button" id="contact_submit" class="btn btn-dm">Send Message</button>
+                              <div class="col-sm-12 ">
+                                <input type="submit" class="btn btn-primary margin-btn-top form-control" value="Submit">
+                               
                               </div>
                            </div>
                         </form> 
@@ -403,7 +404,7 @@
       <!-- =========================
       START CONTACT US SECTION
       ============================== --> 
-      
+      <?php include 'lang-modal.php';?>
 
       <!-- =========================
         START FOOTER SECTION
@@ -441,5 +442,6 @@
       <script src="js/map.js"></script>       
       <script src="js/main.js"></script>      
       <script src="js/change-logo.js"></script>   
+      <script src="js/lang.js"></script>   
    </body>
 </html>

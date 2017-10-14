@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- TITLE -->
-      <title>BIPO | Company News</title>
+      <title>BIPO | Brochure Downlaod</title>
       <!-- FAVICON -->
          
       <!-- Bootstrap -->
@@ -76,14 +76,14 @@
             <div class="row">
                <div class="col-sm-6 col-md-6">
                   <div class="page-title-left">
-                     <h2>Company News</h2>
+                     <h2>Brochure Download</h2>
                   </div>
                </div>
                <div class="col-sm-6 col-md-6">
                   <div class="page-bredcrumbs-area text-right">
                      <ul  class="page-bredcrumbs">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Company News</a></li>
+                        <li><a href="#">Brochure Download</a></li>
                      </ul>
                   </div>
                </div>
@@ -100,27 +100,53 @@
       <section class="blog-area blog-page-area bg-type-2">
          <div class="container">
             <div class="row">
-               <div class="col-sm-8 col-sm-push-4 col-md-8 col-md-push-4 no-padding">
+               <div class="col-sm-12 col-md-12 no-padding">
                   <div class="blog-content-area">
                        
                       
-                        <div class="col-sm-12 col-md-12">
+                        <div class="col-sm-4 col-md-4">
                            <div class="blog-content-single">
                               <div class="blog-img">
-                                 <img src="images/news/1.png" alt="" class="img-responsive">
+                                 <img src="images/bipo-platform.png" alt="" class="img-responsive">
                                 
                               </div>
                               <div class="blog-text">
-                                 <ul>
-                                    <li>Sept 30, 2017 </li>
-                                   
-                                 </ul>
-                                 <h2><a href="#">越南办公室开业</a></h2>
-                                 <p>继香港，新加坡，印尼办公室陆续搬迁，驻于越南胡志明市的办公室也于2017年7月26日正式开业，成为BIPO在亚太区的第六块战略版图。</p>
-                                 <a href="news-detail.php"><i class="fa fa-long-arrow-right"></i> Read More</a>
+                               
+                                 <h2><a href="#">BIPO Platform Brochure -A</a></h2>
+                                 
+                                 <a href="pdf/sample.pdf"><i class="fa fa-long-arrow-right"></i> Download</a>
                               </div>
                            </div>
                         </div>
+                         <div class="col-sm-4 col-md-4">
+                           <div class="blog-content-single">
+                              <div class="blog-img">
+                                 <img src="images/product/Flexible-benefits-management-services.png" alt="" class="img-responsive">
+                                
+                              </div>
+                              <div class="blog-text">
+                               
+                                 <h2><a href="#">BIPO Platform Brochure -B</a></h2>
+                                 
+                                 <a href="pdf/sample.pdf"><i class="fa fa-long-arrow-right"></i> Download</a>
+                              </div>
+                           </div>
+                        </div>
+                         <div class="col-sm-4 col-md-4">
+                           <div class="blog-content-single">
+                              <div class="blog-img">
+                                 <img src="images/product/Attendance.png" alt="" class="img-responsive">
+                                
+                              </div>
+                              <div class="blog-text">
+                               
+                                 <h2><a href="#">BIPO Platform Brochure -C</a></h2>
+                                 
+                                 <a href="pdf/sample.pdf"><i class="fa fa-long-arrow-right"></i> Download</a>
+                              </div>
+                           </div>
+                        </div>
+
                        
                        
                         <!--<div class="col-md-12 expert-pagination blog-pagination text-center clearfix">
@@ -138,46 +164,7 @@
                         </div>   -->             
                   </div>                                 
                </div>
-               <div class="col-sm-4 col-sm-pull-8 col-md-4 col-sm-pull-8">
-                  <div class="blog-siderbar-area">
-                     <!--<div class="search-bar">
-                        <form action="#">
-                           <input type="text" value="" class="sidebar-input-text" placeholder="Type and hit enter ...">
-                           <input type="submit" class="sidebar-input-submit"  value="">
-                           <i class="fa fa-search"></i>
-                        </form>
-                     </div> --><!-- end search-bar --> 
-                     <h2>Categories</h2>
-                     <div class="blog-sidebar-list">
-                        <ul>
-                           <li><a href="news.php"><i class="fa fa-long-arrow-right"></i>Company News</a></li>
-                           <li><a href="newsletter.php"><i class="fa fa-long-arrow-right"></i>Newsletter</a></li>
-                        </ul>
-                     </div>
-                                                  
-                        <div class="service-left-sidebar service-left-sidebar-m-bottom">
-                       <h2>Download Brochure</h2>
-        <div class="contact-form-left contact-form-3 contact-form-right">
-                        <form name="contact" action="" method="Post">
-                           <div class="row">
-                              <div class="col-sm-12">
-                                 <input type="text" id="Name" class="form-control" placeholder="Name"> 
-                              </div>
-                              <div class="col-sm-12">
-                                 <input type="email" id="Email" class="form-control" placeholder="Email">
-                              </div>
-                             
-                               <div class="col-sm-12">
-                                 <a href="brochure-download.php"><button type="button" id="contact_submit" class="btn btn-dm">submit</button></a>
-                              </div>
-                           </div>
-                        </form> 
-                      </div>
-                      
-                     </div>
-                                                      
-                  </div>
-               </div>            
+                    
             </div>
          </div>
       </section>
@@ -188,7 +175,6 @@
       <!-- =========================
         START FOOTER SECTION
       ============================== -->
-      <?php include 'lang-modal.php';?>
       <?php include 'footer.php';?>
       <!-- =========================
         END FOOTER SECTION
@@ -222,6 +208,5 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
-      <script src="js/lang.js"></script>  
    </body>
 </html>

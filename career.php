@@ -187,6 +187,7 @@
       <!-- =========================
         END FOOTER SECTION
       ============================== -->
+      <?php include 'lang-modal.php';?>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script type="text/javascript" src="gtag.js"></script>
@@ -217,5 +218,6 @@
       <script src="js/change-logo.js"></script>   
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
+      <script src="js/lang.js"></script>  
    </body>
 </html>

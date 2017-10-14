@@ -7,10 +7,22 @@
                            <li><a href="other-services.php">Other Solution</a></li>
                               
                         </ul>
-                          <a href="pdf/sample.pdf" target="_blank">
-                           <span>PDF</span>
-                           <span>Download Bochure</span>
-                           <i class="fa fa-download"></i>
-                        </a>
+    <h2><a href="brochure-download.php">Download Brochure</a></h2>
+        <div class="contact-form-left contact-form-3 contact-form-right">
+                        <form name="contact" action="" method="Post">
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <input type="text" id="Name" class="form-control" placeholder="Name"> 
+                              </div>
+                              <div class="col-sm-12">
+                                 <input type="email" id="Email" class="form-control" placeholder="Email">
+                              </div>
+                             
+                              <div class="col-sm-12">
+                                 <a href="brochure-download.php"><button type="button" id="contact_submit" class="btn btn-dm">submit</button></a>
+                              </div>
+                           </div>
+                        </form> 
+                      </div>
                      </div>
                   </div>

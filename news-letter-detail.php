@@ -5,9 +5,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- TITLE -->
-      <title>BIPO | Company News</title>
+      <title>BIPO | Newsletter</title>
       <!-- FAVICON -->
-         
+     
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!--FONT AWESOME -->
@@ -71,19 +71,19 @@
       <!-- =========================
         START PAGE TITLE SECTION
       ============================== -->
-      <div class="page-title-area news-bg">
+      <div class="page-title-area newsletter-bg">
          <div class="container">
             <div class="row">
                <div class="col-sm-6 col-md-6">
                   <div class="page-title-left">
-                     <h2>Company News</h2>
+                     <h2>Newsletter</h2>
                   </div>
                </div>
                <div class="col-sm-6 col-md-6">
                   <div class="page-bredcrumbs-area text-right">
                      <ul  class="page-bredcrumbs">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Company News</a></li>
+                        <li><a href="#">Newsletter</a></li>
                      </ul>
                   </div>
                </div>
@@ -102,27 +102,37 @@
             <div class="row">
                <div class="col-sm-8 col-sm-push-4 col-md-8 col-md-push-4 no-padding">
                   <div class="blog-content-area">
-                       
                       
                         <div class="col-sm-12 col-md-12">
                            <div class="blog-content-single">
                               <div class="blog-img">
-                                 <img src="images/news/1.png" alt="" class="img-responsive">
-                                
+                                 <img src="images/singapore.jpg" alt="" class="img-responsive">
+                                 
                               </div>
                               <div class="blog-text">
                                  <ul>
-                                    <li>Sept 30, 2017 </li>
-                                   
+                                    <li>Sept 22, 2017 </li>
+                                    <li>
+                                       <a href="#">Newsletter</a> 
+                                       
+                                    </li>
                                  </ul>
-                                 <h2><a href="#">越南办公室开业</a></h2>
-                                 <p>继香港，新加坡，印尼办公室陆续搬迁，驻于越南胡志明市的办公室也于2017年7月26日正式开业，成为BIPO在亚太区的第六块战略版图。</p>
-                                 <a href="news-detail.php"><i class="fa fa-long-arrow-right"></i> Read More</a>
+                                 <h2><a href="#">新加坡 vs 香港社保體系大不同</a></h2>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                 <div class="service-left-sidebar service-left-sidebar-m-bottom">
+                      
+                        <a href="pdf/newsletter/newsletter.pdf" target="_blank">
+                           <span>PDF</span>
+                           <span>Download.pdf</span>
+                           <i class="fa fa-download"></i>
+                        </a>
+                      
+                     </div>
                               </div>
                            </div>
                         </div>
-                       
-                       
+                      
+                        
                         <!--<div class="col-md-12 expert-pagination blog-pagination text-center clearfix">
                            <nav>
                                <ul class="pagination">
@@ -135,7 +145,7 @@
                                    </li>
                                </ul>
                            </nav>                                    
-                        </div>   -->             
+                        </div> -->               
                   </div>                                 
                </div>
                <div class="col-sm-4 col-sm-pull-8 col-md-4 col-sm-pull-8">
@@ -155,24 +165,14 @@
                         </ul>
                      </div>
                                                   
-                        <div class="service-left-sidebar service-left-sidebar-m-bottom">
-                       <h2>Download Brochure</h2>
-        <div class="contact-form-left contact-form-3 contact-form-right">
-                        <form name="contact" action="" method="Post">
-                           <div class="row">
-                              <div class="col-sm-12">
-                                 <input type="text" id="Name" class="form-control" placeholder="Name"> 
-                              </div>
-                              <div class="col-sm-12">
-                                 <input type="email" id="Email" class="form-control" placeholder="Email">
-                              </div>
-                             
-                               <div class="col-sm-12">
-                                 <a href="brochure-download.php"><button type="button" id="contact_submit" class="btn btn-dm">submit</button></a>
-                              </div>
-                           </div>
-                        </form> 
-                      </div>
+                     <div class="service-left-sidebar service-left-sidebar-m-bottom">
+                        <h2>Download Brochures</h2>
+                        <p>download our service brochures</p>
+                        <a href="pdf/sample.pdf" target="_blank">
+                           <span>PDF</span>
+                           <span>Download</span>
+                           <i class="fa fa-download"></i>
+                        </a>
                       
                      </div>
                                                       
@@ -188,7 +188,6 @@
       <!-- =========================
         START FOOTER SECTION
       ============================== -->
-      <?php include 'lang-modal.php';?>
       <?php include 'footer.php';?>
       <!-- =========================
         END FOOTER SECTION
@@ -222,6 +221,5 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
-      <script src="js/lang.js"></script>  
    </body>
 </html>

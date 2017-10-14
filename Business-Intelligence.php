@@ -13,6 +13,6 @@
 
 	</ul>'.
 	
-	"<img src='images/bi-stiemap.png' class='img-responsive'>";
+	"<img src='images/bi-sitemap-01.png' class='img-responsive'>";
 	;
 ?>

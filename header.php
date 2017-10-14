@@ -12,7 +12,7 @@
                         <li ><a href="about.php" >Our Company</a>
                         <ul class="dropdown">
                               <li><a href="about.php">About Us</a></li>
-                              <li><a href="mission.php">Mission & Vision</a></li>
+                              <!--<li><a href="mission.php">Mission & Vision</a></li>-->
                               <li><a href="news.php">Company News</a></li>
                               <li><a href="newsletter.php">Newletters</a></li>
                               <li><a href="career.php">Career</a></li>
@@ -39,28 +39,18 @@
                         </li>-->
                         
                      </ul>
-                  
-                      <div class=" appointment-area appointment-2-area lang-margin-left">
-                      
-            <div class="dropdown">
-              <a class="dropbtn "><img src="images/flag/us.png" width="30px">EN</a>
-            <div class="dropdown-content">
-              <a href="#"><img src="images/flag/china.png" width="30px">簡</a>
-              <a href="#"><img src="images/flag/us.png" width="30px">EN</a>
-
-            </div>
-            <a class="dropbtn ">Country</a>
-            <div class="dropdown-content">
-              <a href="#"><img src="images/flag/china.png" width="30px">123</a>
-              <a href="#"><img src="images/flag/us.png" width="30px">123</a>
-
-            </div>
-          </div>
-
-
-                    
-                     </div>
                      
+                     <div class=" appointment-area appointment-2-area lang-margin-left">
+                      <div class="dropdown ">
+                        <a class=" btn btn-primary" data-toggle="modal" data-target="#exampleModal">Languages</a>
+                           
+           
+           
+                      </div>
+                      </div>
+                 
+                   
+                   
 
                        
                    

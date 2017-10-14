@@ -3,7 +3,6 @@
     
     color: #fff;
     padding: 16px;
-    
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -54,6 +53,9 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
     font-size: 14px;
     display: none;
     position: absolute;
@@ -85,5 +87,9 @@
     background-color: #3e8e41;
 }*/
 .lang-margin-left{
+    padding-top: 30px;
     margin-left: 200px;
+}
+.lang-font{
+    font-size: 16px;
 }

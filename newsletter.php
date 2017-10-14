@@ -117,16 +117,25 @@
                                        
                                     </li>
                                  </ul>
-                                 <h2><a href="#">新加坡 vs 香港社保體系大不同</a></h2>
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                 <h2><a href="news-letter-detail.php">新加坡 vs 香港社保體系大不同</a></h2>
+                                 <p>Download our news letter</p>
                                  <div class="service-left-sidebar service-left-sidebar-m-bottom">
-                      
-                        <a href="pdf/newsletter/newsletter.pdf" target="_blank">
-                           <span>PDF</span>
-                           <span>Download.pdf</span>
-                           <i class="fa fa-download"></i>
-                        </a>
-                      
+                      <div class="contact-form-left contact-form-3 contact-form-right">
+                        <form name="contact" action="" method="Post">
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <input type="text" id="Name" class="form-control" placeholder="Name"> 
+                              </div>
+                              <div class="col-sm-12">
+                                 <input type="email" id="Email" class="form-control" placeholder="Email">
+                              </div>
+                             
+                              <div class="col-sm-12 text-center">
+                                 <button type="button" id="contact_submit" class="btn btn-dm">Send Message</button>
+                              </div>
+                           </div>
+                        </form> 
+                      </div>
                      </div>
                               </div>
                            </div>
@@ -166,13 +175,23 @@
                      </div>
                                                   
                      <div class="service-left-sidebar service-left-sidebar-m-bottom">
-                        <h2>Download Brochures</h2>
-                        <p>download our service brochures</p>
-                        <a href="pdf/sample.pdf" target="_blank">
-                           <span>PDF</span>
-                           <span>Download.pdf</span>
-                           <i class="fa fa-download"></i>
-                        </a>
+                       <h2>Download Brochure</h2>
+        <div class="contact-form-left contact-form-3 contact-form-right">
+                        <form name="contact" action="" method="Post">
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <input type="text" id="Name" class="form-control" placeholder="Name"> 
+                              </div>
+                              <div class="col-sm-12">
+                                 <input type="email" id="Email" class="form-control" placeholder="Email">
+                              </div>
+                             
+                              <div class="col-sm-12">
+                                 <a href="brochure-download.php"><button type="button" id="contact_submit" class="btn btn-dm">submit</button></a>
+                              </div>
+                           </div>
+                        </form> 
+                      </div>
                       
                      </div>
                                                       
@@ -181,6 +200,7 @@
             </div>
          </div>
       </section>
+      <?php include 'lang-modal.php';?>
       <!-- =========================
         END BLOG SECTION
       ============================== -->
@@ -221,5 +241,6 @@
       <script src="js/change-logo.js"></script> 
       <script src="js/slick.min.js"></script> 
       <script src="js/custom-slider.js"></script> 
+      <script src="js/lang.js"></script>  
    </body>
 </html>
