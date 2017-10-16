@@ -13,4 +13,13 @@
 	 <li><h4>BIPO medical station </h4></li>
 
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'HR Consultant Services';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=hrcs';
+	$relatedServiceImage1 = 'images/product/HR-Consultant-Services.png';
+	$relatedServiceTitle2 = 'Administrative Outsourcing Services';
+	$relatedServiceUrl2   = '';
+	$relatedServiceImage2 = 'images/product/Attendance.png';
+
 ?>

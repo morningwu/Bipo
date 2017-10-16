@@ -22,8 +22,8 @@
                         <li><a href="product.php">Services</a>
                         <ul class="dropdown">
                          
-                          <li><a href="out-soucring.php">Outsourcing Solutions</a></li>
-                          <li><a href="other-services.php">Other Solutions</a></li>
+                          <li><a href="out-soucring.php">Outsourcing Services</a></li>
+                          <li><a href="other-services.php">Other Services</a></li>
                         </ul>
                            </li>
                         <!--<li><a href="client.php">Clients</a></li>-->
@@ -42,7 +42,8 @@
                      
                      <div class=" appointment-area appointment-2-area lang-margin-left">
                       <div class="dropdown ">
-                        <a class=" btn btn-primary" data-toggle="modal" data-target="#exampleModal">Languages</a>
+                        <a class=" btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-globe" ></i>  EN</a>
+                        <a class=" btn btn-warning" href="tel:+852 36430295"><i class="fa fa-phone" ></i>+852 3643 0295</a>
                            
            
            

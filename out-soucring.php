@@ -75,7 +75,7 @@
             <div class="row">
                <div class="col-sm-6 col-md-6">
                   <div class="page-title-left">
-                     <h2>Out Sourcing Solutions</h2>
+                     <h2>Out Sourcing Services</h2>
                   </div>
                </div>
                 <div class="col-sm-6 col-md-6">

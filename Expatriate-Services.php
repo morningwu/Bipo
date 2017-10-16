@@ -13,4 +13,13 @@
 	 <li><h4>Tax payment certification printout & distribution</h4></li>
 	 <li><h4>Global medical insurance services</h4></li>
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'Employment Visa Application Service';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=evas';
+	$relatedServiceImage1 = 'images/product/visa-application.png';
+	$relatedServiceTitle2 = 'Staff Outsourcing Services  ';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=sos';
+	$relatedServiceImage2 = 'images/product/Staff-Outsourcing.png';
+
 ?>

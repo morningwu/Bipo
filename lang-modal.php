@@ -3,7 +3,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel">Select Languages and Location</h4>
+        <h4 class="modal-title" id="exampleModalLabel">Select Your Languages and Location</h4>
         <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>-->
@@ -14,10 +14,10 @@
           <option value ="1">Hong Kong</option>
           <option value ="2">China</option>
           <option value ="3">Taiwan</option>
-          <option value ="4">Singapore</option>
+          <option value ="4">Thailand</option>
           <option value ="5">Indonesia</option>
           <option value ="6">Vietnam</option>
-          <option value ="7">Thailand</option>
+          <option value ="7">Singapore</option>
           <option value ="8">New Zealand</option>
           <option value ="9">Australia</option>
           </select>
@@ -34,7 +34,7 @@
   </div>
   <div id="tab-2" class="tab-content">
     <select class="form-control" id="select-box">
-   <option value ="1">簡體中文</option>
+   <option value ="1">简体中文</option>
     <option value ="2">English</option>
   </select></div>
   <div id="tab-3" class="tab-content">
@@ -42,23 +42,24 @@
     <option value ="1">繁體中文</option>
     <option value ="2">English</option>
   </select></div>
- <div id="tab-4" class="tab-content">
-  <select class="form-control" id="select-box">
-     <option value ="2">English</option>
+  <div id="tab-4" class="tab-content">
+    <select class="form-control" id="select-box">
+    <option value ="1">ไทย</option>
+    <option value ="2">English</option>
   </select></div>
+
+
   <div id="tab-5" class="tab-content">
     <select class="form-control" id="select-box">
     <option value ="2">English</option>
   </select></div>
   <div id="tab-6" class="tab-content">
     <select class="form-control" id="select-box">
-    <option value ="2">ViệtNam</option>
     <option value ="2">English</option>
   </select></div>
-  <div id="tab-7" class="tab-content">
-    <select class="form-control" id="select-box">
-    <option value ="1">ไทย</option>
-    <option value ="2">English</option>
+   <div id="tab-7" class="tab-content">
+  <select class="form-control" id="select-box">
+     <option value ="2">English</option>
   </select></div>
   <div id="tab-8" class="tab-content">
     <select class="form-control" id="select-box">

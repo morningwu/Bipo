@@ -108,7 +108,37 @@
                         <h2>Overview :</h2>
                         <p>We all need a little help from our friends from time to time. Although we offer the one-stop convenience of an integrated range of legal, financial services under one roof, there are occasions when our clients need specialist advice beyond the scope of our own expertise. That’s why we’ve developed close working relationships with a number of strategic partners who can bring additional skills to the table to complement our own, carefully selected as leaders in their respective fields whose outlook and approach to client care mirror our own high standards.</p>
                        
-                     </div>                                
+                     </div>    
+                      <div class="blog-siderbar-area single-blog-thumbnail single-blog-thumbnail-c-padding clearfix">
+                     <h2>Related Services</h2>
+                        <div class="col-sm-12 col-sm-6 col-md-6">
+                           <div class="blog-content-single blog-content-single-no-m-btm">
+                              <div class="blog-img">
+                                 <img src="images/product/business-intelligence.png" alt="" class="img-responsive">
+                                 
+                              </div>
+                              <div class="blog-text">
+                                
+                                 <h2><a href="product-detail-page.php?service=bi">Business Intelligence</a></h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-sm-6 col-md-6">
+                           <div class="blog-content-single blog-content-single-no-m-btm">
+                              <div class="blog-img">
+                                 <img src="images/product/Attendance.png" alt="" class="img-responsive">
+                               
+                              </div>
+                              <div class="blog-text">
+                                 
+                                 <h2><a href="product-detail-page.php?service=aas">Attendance Automation Services</a></h2>
+                              </div>
+                           </div>
+                        </div>
+                        
+                      
+                  </div>
+
                   </div>
    	        	</div>
 	         </div>
@@ -117,6 +147,7 @@
       <!-- =========================
         END SERVICE SECTION
       ============================== --> 
+
 
       <!-- =========================
         START SIGN UP SECTION

@@ -13,4 +13,14 @@
 	 <li><h4>Extension of stay visa application </h4></li>
 
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'Expatriate Services';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=es';
+	$relatedServiceImage1 = 'images/product/Expatriate-Services.png';
+	$relatedServiceTitle2 = 'Staff Outsourcing Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=sos';
+	$relatedServiceImage2 = 'images/product/Staff-Outsourcing.png';
+
+
 ?>

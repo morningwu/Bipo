@@ -8,4 +8,13 @@
 	'<p>- Project Search: A recruiting project team is created to find a number of candidates with similar profiles.</p>'.
 	'<p>- Regional Search: Regional networking provides solutions for clients with overseas staffing needs, as well as consultation for candidates.</p>'.
 	'<p>- Advertised Search and Selection: Targeted advertising tools combined with a thorough search process and rigorous screening to fill key positions.</p>';
+
+		//Related Services
+	$relatedServiceTitle1 = 'Recruitment Process Outsourcing (RPO) Services';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=rpos';
+	$relatedServiceImage1 = 'images/product/Recruitment-Process-Outsourcing.png';
+	$relatedServiceTitle2 = 'Staff Outsourcing Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=sos';
+	$relatedServiceImage2 = 'images/product/Staff-Outsourcing.png';
+
 ?>

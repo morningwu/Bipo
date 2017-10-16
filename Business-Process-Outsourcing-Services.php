@@ -11,4 +11,12 @@
 		<li><h4>The ability to re-channel funds from business support functions to developing new revenue streams</h4></li>
 		
 	</ul>';
+		//Related Services
+	$relatedServiceTitle1 = 'Recruitment Process Outsourcing (RPO) Services';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=rpos';
+	$relatedServiceImage1 = 'images/product/Recruitment-Process-Outsourcing.png';
+	$relatedServiceTitle2 = 'Administrative Outsourcing Services';
+	$relatedServiceUrl2   = '';
+	$relatedServiceImage2 = 'images/product/Attendance.png';
+
 ?>

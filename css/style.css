@@ -4455,6 +4455,10 @@ ul.home-10-pagination{
    
     background: url(../images/product/New-business-setup.png);
 }
+.service-area-outsource-fmbs-bg{
+   
+    background: url(../images/product/Flexible-benefits-management-services.png);
+}
 .news-bg{
     background: url(../images/product/news.jpg);
 }
@@ -7537,4 +7541,7 @@ input.shop-submit:hover{
 }
 .margin-btn-top{
     margin-top: 15px;
+}
+.blue{
+    color: #3060AC;
 }

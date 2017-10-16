@@ -13,4 +13,13 @@
 	 <li><h4>Cost analysis and vendor comparison for MPF, medical plan and other benefit plans </h4></li>
 
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'Business Process Outsourcing (BPO) Services';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=bpos';
+	$relatedServiceImage1 = 'images/product/Business-Process-Outsourcing.png';
+	$relatedServiceTitle2 = 'HR Consultant Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=hrcs';
+	$relatedServiceImage2 = 'images/product/New-business-setup.png';
+
 ?>

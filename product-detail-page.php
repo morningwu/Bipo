@@ -146,42 +146,31 @@
                      </div> 
                      <div class="blog-siderbar-area single-blog-thumbnail single-blog-thumbnail-c-padding clearfix">
                      <h2>Related Services</h2>
-                        <div class="col-sm-12 col-sm-4 col-md-4">
+                        <div class="col-sm-12 col-sm-6 col-md-6">
                            <div class="blog-content-single blog-content-single-no-m-btm">
                               <div class="blog-img">
-                                 <img src="images/product/Attendance.png" alt="" class="img-responsive">
+                                 <img src="<?php echo $relatedServiceImage1;?>" alt="" class="img-responsive">
                                  
                               </div>
                               <div class="blog-text">
                                 
-                                 <h2><a href="#">Attendance Automation Services</a></h2>
+                                 <h2><a href="<?php echo $relatedServiceUrl1;?>"><?php echo $relatedServiceTitle1;?></a></h2>
                               </div>
                            </div>
                         </div>
-                        <div class="col-sm-12 col-sm-4 col-md-4">
+                        <div class="col-sm-12 col-sm-6 col-md-6">
                            <div class="blog-content-single blog-content-single-no-m-btm">
                               <div class="blog-img">
-                                 <img src="images/product/Staff-Outsourcing.png" alt="" class="img-responsive">
+                                 <img src="<?php echo $relatedServiceImage2;?>" alt="" class="img-responsive">
                                
                               </div>
                               <div class="blog-text">
                                  
-                                 <h2><a href="#">Staff Outsourcing</a></h2>
+                                 <h2><a href="<?php echo $relatedServiceUrl2;?>"><?php echo $relatedServiceTitle2;?></a></h2>
                               </div>
                            </div>
                         </div>
-                        <div class="col-sm-12 col-sm-4 col-md-4">
-                           <div class="blog-content-single blog-content-single-no-m-btm">
-                              <div class="blog-img">
-                                 <img src="images/product/business-intelligence.png" alt="" class="img-responsive">
-                               
-                              </div>
-                              <div class="blog-text">
-                                 
-                                 <h2><a href="#">Business Intelligence</a></h2>
-                              </div>
-                           </div>
-                        </div>
+                        
                       
                   </div>
 

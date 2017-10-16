@@ -11,4 +11,11 @@
 	 <li><h4>Other HR needs</h4></li>
 
 	</ul>';
+	//Related Services
+	$relatedServiceTitle1 = 'BIPO HRMS Solutions';
+	$relatedServiceUrl1   = 'bipo-platform.php';
+	$relatedServiceImage1 = 'images/bipo-platform.png';
+	$relatedServiceTitle2 = 'Payroll Outsourcing Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=pos';
+	$relatedServiceImage2 = 'images/product/payroll.jpg';
 ?>

@@ -27,7 +27,7 @@
                       <!-- single item -->
                       <li class="China all">
                           <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i>  China</h3><hr/>
+                              <h3>China</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Govern Tang </h5>
                               <h5><i class="fa fa-envelope"></i> : govern.tang@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +86 021 62896150</h5>
@@ -37,7 +37,7 @@
                       <!-- single item -->
                       <li class="HongKong all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Hong Kong</h3><hr/>
+                              <h3>Hong Kong</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Florence Mok</h5>
                               <h5><i class="fa fa-envelope"></i> : florence.mok@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +852 3643 0295</h5>
@@ -46,7 +46,7 @@
                       </li>
                       <li class="Taiwan all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Taiwan</h3><hr/>
+                              <h3>Taiwan</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Winny Chiang</h5>
                               <h5><i class="fa fa-envelope"></i> : winny.chiang@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +886 2 2175 2970</h5>
@@ -55,7 +55,7 @@
                       </li>
                       <li class="Singapore all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Singapore</h3><hr/>
+                              <h3>Singapore</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Albert Liew</h5>
                               <h5><i class="fa fa-envelope"></i> : albert.liew@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +65 6877 6925</h5>
@@ -64,7 +64,7 @@
                       </li>
                       <li class="Vietnam all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Vietnam</h3><hr/>
+                              <h3>Vietnam</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Trieu Thi Quyen </h5>
                               <h5><i class="fa fa-envelope"></i> : quyen.trieu@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +84 283 8911228-229</h5>
@@ -74,7 +74,7 @@
                       </li>
                       <li class="Thailand all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Thailand</h3><hr/>
+                              <h3>Thailand</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Pongsak Suteeolarn </h5>
                               <h5><i class="fa fa-envelope"></i> : pongsak.suteeolarn@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> : +66 (0)2 641 5415</h5>
@@ -83,7 +83,7 @@
                       </li>
                       <li class="Indonesia all">
                          <div class="bf-single-item "> 
-                              <h3><i class="fa fa-map-marker blue"></i> Indonesia</h3><hr/>
+                              <h3>Indonesia</h3><hr/>
                               <h5><i class="fa fa-user"></i> : Eka kurniadi</h5>
                               <h5><i class="fa fa-envelope"></i> : eka.kurniadi@biposervice.com</h5>
                               <h5><i class="fa fa-phone"></i> :  +62-21 2789 3488</h5>

@@ -15,4 +15,13 @@
 	 <li><h4>ESS service</h4></li>
 	 <li><h4>Electronic payslip</h4></li>
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'BIPO HRMS Solutions';
+	$relatedServiceUrl1   = 'bipo-platform.php';
+	$relatedServiceImage1 = 'images/bipo-platform.png';
+	$relatedServiceTitle2 = 'Attendance Automation Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=aas';
+	$relatedServiceImage2 = 'images/product/Attendance.png';
+
 ?>

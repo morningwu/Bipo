@@ -105,6 +105,39 @@
                <div class="row">
                
                   <div class="col-sm-3">
+                    <div class="contact-form-left contact-form-3 contact-form-right">
+                      <h2 class="text-center">Contact our Global Office</h2>
+
+                      <select class="form-control" id="contact-box">
+                        <option >Select a office location</option>
+                        <option value="1">China</option>
+                        <option value="2">HongKong</option>
+
+                      </select>
+                    </div>
+                    <div id="tab1" class="contact-content">
+                        <div class="bf-single-item "> 
+                              <h4>China</h4><hr/>
+                              <h5><i class="fa fa-user"></i> : Govern Tang </h5>
+                              <h5><i class="fa fa-envelope"></i> : govern.tang@biposervice.com</h5>
+                              <h5><i class="fa fa-phone"></i> : +86 021 62896150</h5>
+                              <h5><i class="fa fa-map-marker"></i> : Room 1102, OOCL Plaza, No. 841, Middle Yan An Road. Shanghai, 200040, China</h5>
+                          </div>
+
+                    </div>
+                    <div id="tab2" class="contact-content">
+                        <div class="bf-single-item "> 
+                              <h4>Hong Kong</h4><hr/>
+                              <h5><i class="fa fa-user"></i> : Florence Mok</h5>
+                              <h5><i class="fa fa-envelope"></i> : florence.mok@biposervice.com</h5>
+                              <h5><i class="fa fa-phone"></i> : +852 3643 0295</h5>
+                              <h5><i class="fa fa-map-marker"></i> : Unit 16, 12/F., One Mid-town, No. 11 Hoi Shing Road, Tsuen Wan, N.T.</h5>
+                          </div>
+
+                    </div>
+
+
+                  
                     
                     <div class="contact-form-left contact-form-3 contact-form-right">
                       <h2 class="text-center">Follow our wechat</h2>
@@ -398,9 +431,7 @@
                   </div>             
                </div>
 
-             </div class="row">
-             <?php include 'contact-tab.php';?>
-            </div>
+            
             </div>
             
          </div>         
@@ -447,5 +478,18 @@
       <script src="js/main.js"></script>      
       <script src="js/change-logo.js"></script>   
       <script src="js/lang.js"></script>   
+      <script type="text/javascript">
+      $('.tab-content').hide();
+
+$('#tab1').show();
+
+$('#contact-box').change(function () {
+   dropdown = $('#contact-box').val();
+  //first hide all tabs again when a new option is selected
+  $('.contact-content').hide();
+  //then show the tab content of whatever option value was selected
+  $('#' + "tab" + dropdown).show();                                    
+});
+      </script>
    </body>
 </html>

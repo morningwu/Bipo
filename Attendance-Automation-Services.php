@@ -10,4 +10,13 @@
 	 <li><h4>Implement attendance automation system</h4></li>
 	 <li><h4>Daily attendance data transmission and management</h4></li>
 	</ul>';
+
+	//Related Services
+	$relatedServiceTitle1 = 'BIPO HRMS Solutions';
+	$relatedServiceUrl1   = 'bipo-platform.php';
+	$relatedServiceImage1 = 'images/bipo-platform.png';
+	$relatedServiceTitle2 = 'Administrative Outsourcing Services';
+	$relatedServiceUrl2   = '';
+	$relatedServiceImage2 = 'images/product/Attendance.png';
+
 ?>

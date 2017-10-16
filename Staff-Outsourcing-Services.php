@@ -6,4 +6,11 @@
 	
 	
 	'<img src="images/sos-sitemap.png">';
+//Related Services
+	$relatedServiceTitle1 = 'Permanent Placement Recruitment';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=prr';
+	$relatedServiceImage1 = 'images/product/Permanent-Placement-Recruitment.png';
+	$relatedServiceTitle2 = 'Recruitment Process Outsourcing (RPO) Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=rpos';
+	$relatedServiceImage2 = 'images/product/Recruitment-Process-Outsourcing.png';
 ?>

@@ -22,4 +22,12 @@
 		<li><h4>Technology solutions</h4></li>
 		<li><h4>Hiring manager training</h4></li>
 	</ul>';
+	//Related Services
+	$relatedServiceTitle1 = 'Permanent Placement Recruitment';
+	$relatedServiceUrl1   = 'product-detail-page.php?service=prr';
+	$relatedServiceImage1 = 'images/product/Permanent-Placement-Recruitment.png';
+	$relatedServiceTitle2 = 'Staff Outsourcing Services';
+	$relatedServiceUrl2   = 'product-detail-page.php?service=sos';
+	$relatedServiceImage2 = 'images/product/Staff-Outsourcing.png';
+
 ?>
